@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'login_page.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+
+class WelcomePage extends StatelessWidget {
+  const WelcomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +39,7 @@ class LoginPage extends StatelessWidget {
                   margin: const EdgeInsets.symmetric(horizontal: 20),
                   padding: const EdgeInsets.all(30),
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.95),
+                    color: const Color(0xF2FFFFFF),
                     borderRadius: BorderRadius.circular(20),
                     boxShadow: const [
                       BoxShadow(
@@ -64,7 +66,7 @@ class LoginPage extends StatelessWidget {
                       const SizedBox(height: 10),
 
                       const Text(
-                        "DigiWorld Phuket\nPython • Roblox • Matata • Scratch",
+                        "Sign in or create an account \nto get started!",
                         textAlign: TextAlign.center,
                         style: TextStyle(fontSize: 15),
                       ),
@@ -87,7 +89,14 @@ class LoginPage extends StatelessWidget {
                               borderRadius: BorderRadius.circular(12),
                             ),
                           ),
-                          onPressed: () {},
+                          onPressed: () {
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (context) => const LoginPage(),
+    ),
+  );
+                          },
                           child: const Text("Sign In"),
                         ),
                       ),

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1076672723592",
+    "project_id": "my-login-app-57c22",
+    "storage_bucket": "my-login-app-57c22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076672723592:android:95248cc8c96d50d9377d3d",
+        "android_client_info": {
+          "package_name": "com.example.digi_class_booking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAwCeC59HdGGcBMwau6hfW1nZ0fopS-VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
